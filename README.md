@@ -1105,7 +1105,7 @@ BEGIN{}
 {
 print len=length($0),"\t",$0 
 wordcount+=NF
-chrcnt+=len
+chrcnt+=len 
 }
 END {
 print "total characters",chrcnt 
